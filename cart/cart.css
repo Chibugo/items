@@ -1,7 +1,11 @@
 .cart-item{
     background-color: white;
-    border: 1px lightgrey solid;
+    border: 1px rgb(230, 228, 228) solid;
     padding: 10px;
     width: auto;
-    margin: 1px;
+    margin-top: 2px;
+}
+
+.summary{
+    padding-top: 3px;
 }
