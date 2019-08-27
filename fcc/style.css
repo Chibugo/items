@@ -1,0 +1,78 @@
+body{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: #ffebee;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  #main{
+    max-width: 1200px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  #header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: lightsalmon;
+    padding: 50px 0;
+  }
+  #title{
+    font-size: 2rem;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-bottom: 10px;
+  }
+  .description{
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+    text-align: justify;
+  }
+
+  #img-div{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    max-height: 600px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.3);
+    margin: 80px auto;
+  }
+  #image{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  #img-caption{
+    padding: 20px 10px;
+  }
+  #tribute-info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: lightseagreen;
+    text-align: center;
+    padding: 50px 0;
+  }
+  #tribute-link{
+    font-size: 14px;
+    color: #5c6bc0;
+    text-decoration: none;
+  }
+  #tribute-link:hover {
+    color: #3949ab;
+  }
